@@ -10,6 +10,8 @@
 		AF1F03871940D1AF004BEFDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1F03861940D1AF004BEFDF /* AppDelegate.swift */; };
 		AF1F03891940D1AF004BEFDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1F03881940D1AF004BEFDF /* Images.xcassets */; };
 		AF1F03951940D1AF004BEFDF /* Hodor_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1F03941940D1AF004BEFDF /* Hodor_KeyboardTests.swift */; };
+		AF1F03A71940D1B7004BEFDF /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1F03A61940D1B7004BEFDF /* KeyboardViewController.swift */; };
+		AF1F03AA1940D1B7004BEFDF /* jonomuller.Hodor-Keyboard.Hodor.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AF1F03A21940D1B7004BEFDF /* jonomuller.Hodor-Keyboard.Hodor.appex */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,7 +22,35 @@
 			remoteGlobalIDString = AF1F03801940D1AF004BEFDF;
 			remoteInfo = "Hodor-Keyboard";
 		};
+		AF1F03A81940D1B7004BEFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1F03791940D1AF004BEFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1F03A11940D1B7004BEFDF;
+			remoteInfo = Hodor;
+		};
+		AF1F03AB1940D1B7004BEFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF1F03791940D1AF004BEFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF1F03A11940D1B7004BEFDF;
+			remoteInfo = Hodor;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AF1F03B01940D1B7004BEFDF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AF1F03AA1940D1B7004BEFDF /* jonomuller.Hodor-Keyboard.Hodor.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AF1F03811940D1AF004BEFDF /* Hodor-Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hodor-Keyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -30,6 +60,9 @@
 		AF1F038E1940D1AF004BEFDF /* Hodor-KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hodor-KeyboardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1F03931940D1AF004BEFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF1F03941940D1AF004BEFDF /* Hodor_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hodor_KeyboardTests.swift; sourceTree = "<group>"; };
+		AF1F03A21940D1B7004BEFDF /* jonomuller.Hodor-Keyboard.Hodor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "jonomuller.Hodor-Keyboard.Hodor.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1F03A51940D1B7004BEFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF1F03A61940D1B7004BEFDF /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF1F039F1940D1B7004BEFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +95,7 @@
 			children = (
 				AF1F03831940D1AF004BEFDF /* Hodor-Keyboard */,
 				AF1F03911940D1AF004BEFDF /* Hodor-KeyboardTests */,
+				AF1F03A31940D1B7004BEFDF /* Hodor */,
 				AF1F03821940D1AF004BEFDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +105,7 @@
 			children = (
 				AF1F03811940D1AF004BEFDF /* Hodor-Keyboard.app */,
 				AF1F038E1940D1AF004BEFDF /* Hodor-KeyboardTests.xctest */,
+				AF1F03A21940D1B7004BEFDF /* jonomuller.Hodor-Keyboard.Hodor.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +145,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AF1F03A31940D1B7004BEFDF /* Hodor */ = {
+			isa = PBXGroup;
+			children = (
+				AF1F03A61940D1B7004BEFDF /* KeyboardViewController.swift */,
+				AF1F03A41940D1B7004BEFDF /* Supporting Files */,
+			);
+			path = Hodor;
+			sourceTree = "<group>";
+		};
+		AF1F03A41940D1B7004BEFDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF1F03A51940D1B7004BEFDF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,10 +172,13 @@
 				AF1F037D1940D1AF004BEFDF /* Sources */,
 				AF1F037E1940D1AF004BEFDF /* Frameworks */,
 				AF1F037F1940D1AF004BEFDF /* Resources */,
+				AF1F03B01940D1B7004BEFDF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AF1F03A91940D1B7004BEFDF /* PBXTargetDependency */,
+				AF1F03AC1940D1B7004BEFDF /* PBXTargetDependency */,
 			);
 			name = "Hodor-Keyboard";
 			productName = "Hodor-Keyboard";
@@ -141,6 +203,23 @@
 			productReference = AF1F038E1940D1AF004BEFDF /* Hodor-KeyboardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AF1F03A11940D1B7004BEFDF /* Hodor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1F03AD1940D1B7004BEFDF /* Build configuration list for PBXNativeTarget "Hodor" */;
+			buildPhases = (
+				AF1F039E1940D1B7004BEFDF /* Sources */,
+				AF1F039F1940D1B7004BEFDF /* Frameworks */,
+				AF1F03A01940D1B7004BEFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hodor;
+			productName = Hodor;
+			productReference = AF1F03A21940D1B7004BEFDF /* jonomuller.Hodor-Keyboard.Hodor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -156,6 +235,9 @@
 					AF1F038D1940D1AF004BEFDF = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = AF1F03801940D1AF004BEFDF;
+					};
+					AF1F03A11940D1B7004BEFDF = {
+						CreatedOnToolsVersion = 6.0;
 					};
 				};
 			};
@@ -173,6 +255,7 @@
 			targets = (
 				AF1F03801940D1AF004BEFDF /* Hodor-Keyboard */,
 				AF1F038D1940D1AF004BEFDF /* Hodor-KeyboardTests */,
+				AF1F03A11940D1B7004BEFDF /* Hodor */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +270,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AF1F038C1940D1AF004BEFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1F03A01940D1B7004BEFDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -212,6 +302,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AF1F039E1940D1B7004BEFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1F03A71940D1B7004BEFDF /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -219,6 +317,16 @@
 			isa = PBXTargetDependency;
 			target = AF1F03801940D1AF004BEFDF /* Hodor-Keyboard */;
 			targetProxy = AF1F038F1940D1AF004BEFDF /* PBXContainerItemProxy */;
+		};
+		AF1F03A91940D1B7004BEFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1F03A11940D1B7004BEFDF /* Hodor */;
+			targetProxy = AF1F03A81940D1B7004BEFDF /* PBXContainerItemProxy */;
+		};
+		AF1F03AC1940D1B7004BEFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF1F03A11940D1B7004BEFDF /* Hodor */;
+			targetProxy = AF1F03AB1940D1B7004BEFDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -360,6 +468,32 @@
 			};
 			name = Release;
 		};
+		AF1F03AE1940D1B7004BEFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Hodor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "jonomuller.Hodor-Keyboard.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AF1F03AF1940D1B7004BEFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Hodor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "jonomuller.Hodor-Keyboard.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -385,6 +519,14 @@
 			buildConfigurations = (
 				AF1F039C1940D1AF004BEFDF /* Debug */,
 				AF1F039D1940D1AF004BEFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AF1F03AD1940D1B7004BEFDF /* Build configuration list for PBXNativeTarget "Hodor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1F03AE1940D1B7004BEFDF /* Debug */,
+				AF1F03AF1940D1B7004BEFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

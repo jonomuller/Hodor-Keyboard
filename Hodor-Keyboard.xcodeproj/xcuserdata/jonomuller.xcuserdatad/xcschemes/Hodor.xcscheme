@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "AF1F03A11940D1B7004BEFDF"
+               BuildableName = "jonomuller.Hodor-Keyboard.Hodor.appex"
+               BlueprintName = "Hodor"
+               ReferencedContainer = "container:Hodor-Keyboard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF1F03801940D1AF004BEFDF"
                BuildableName = "Hodor-Keyboard.app"
                BlueprintName = "Hodor-Keyboard"
@@ -28,31 +42,13 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF1F038D1940D1AF004BEFDF"
-               BuildableName = "Hodor-KeyboardTests.xctest"
-               BlueprintName = "Hodor-KeyboardTests"
-               ReferencedContainer = "container:Hodor-Keyboard.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF1F03801940D1AF004BEFDF"
-            BuildableName = "Hodor-Keyboard.app"
-            BlueprintName = "Hodor-Keyboard"
-            ReferencedContainer = "container:Hodor-Keyboard.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
-      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      selectedDebuggerIdentifier = ""
+      selectedLauncherIdentifier = "Xcode.IDEFoundation.Launcher.PosixSpawn"
       launchStyle = "0"
+      askForAppToLaunch = "Yes"
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"

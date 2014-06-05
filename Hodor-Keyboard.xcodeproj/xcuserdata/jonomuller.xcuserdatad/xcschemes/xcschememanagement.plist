@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>Hodor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>AF1F038D1940D1AF004BEFDF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AF1F03A11940D1B7004BEFDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
