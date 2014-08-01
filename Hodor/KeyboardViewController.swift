@@ -10,8 +10,8 @@ import UIKit
 
 class KeyboardViewController: UIInputViewController {
 
-    @IBOutlet var nextKeyboardButton: UIButton
-    @IBOutlet var hodorButton: UIButton
+    @IBOutlet var nextKeyboardButton: UIButton!
+    @IBOutlet var hodorButton: UIButton!
 
     init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)

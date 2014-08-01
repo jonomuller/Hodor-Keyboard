@@ -238,6 +238,7 @@
 					};
 					AF1F03A11940D1B7004BEFDF = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = VWR855X7M3;
 					};
 				};
 			};
@@ -471,6 +472,8 @@
 		AF1F03AE1940D1B7004BEFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -479,6 +482,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "jonomuller.Hodor-Keyboard.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -486,10 +490,13 @@
 		AF1F03AF1940D1B7004BEFDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Hodor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "jonomuller.Hodor-Keyboard.$(TARGET_NAME:rfc1034identifier)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -513,6 +520,7 @@
 				AF1F039A1940D1AF004BEFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF1F039B1940D1AF004BEFDF /* Build configuration list for PBXNativeTarget "Hodor-KeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				AF1F039D1940D1AF004BEFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AF1F03AD1940D1B7004BEFDF /* Build configuration list for PBXNativeTarget "Hodor" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +538,7 @@
 				AF1F03AF1940D1B7004BEFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
